@@ -1,0 +1,181 @@
+clases y codigo repetitivo, general, caracteristico
+
+Namedb
+
+Packages
+	Namedb.data
+		Class_conection.java
+		1_DAO.java //Nombre de la clase 
+
+			Package Namedb.data;
+			
+			Import…….
+			
+			Public class 1_DAO {
+				public void CREATE(1_DAO ()) // metodo
+				public void READ(1_DAO ()) // metodo
+				public void UPDATE(1_DAO ()) // metodo
+				public void DELETE(1_DAO ()) // metodo
+			}
+			 
+		2_DAO.java //Nombre de la clase
+
+			Package Namedb.data;
+			
+			Import…….
+			
+			Public class 2_DAO {
+				public void CREATE(2_DAO ()) // metodo
+				public void READ(2_DAO ()) // metodo
+				public void UPDATE(2_DAO ()) // metodo
+				public void DELETE(2_DAO ()) // metodo 
+			}
+		
+		N_DAO.java //Nombre de la clase
+			Package Namedb.data;
+			
+			Import…….
+			
+			Public class N_DAO {
+				public void CREATE(N_DAO ()) // metodo
+				public void READ(N_DAO ()) // metodo
+				public void UPDATE(N_DAO ()) // metodo
+				public void DELETE(N_DAO ()) // metodo
+			}
+
+	Namedb.Entities
+		1.java
+			public class 1.java{
+
+			private tipo_dato 1c // 1c = campos de la tabla
+			private tipo_dato 2c // 2c = campos de la tabla
+			private tipo_dato Nc // Nc = campos de la tabla
+	
+			public 1.java() { // constructor 
+				this.1c = " "; // " " varian segun el tipo de dato
+				this.2c = " "; // " " varian segun el tipo de dato
+				this.Nc = " "; // " " varian segun el tipo de dato
+			}
+			public 2.java() { // constructor 
+				this.1c = " "; // " " varian segun el tipo de dato
+				this.2c = " "; // " " varian segun el tipo de dato
+				this.Nc = " "; // " " varian segun el tipo de dato
+			}
+			public N.java() { // constructor 
+				this.1c = " "; // " " varian segun el tipo de dato
+				this.2c = " "; // " " varian segun el tipo de dato
+				this.Nc = " "; // " " varian segun el tipo de dato
+			}
+
+				public void set_1c (tipo_dato 1c_name){
+					this.1c = 1c_name
+				}
+				public void set_2c (tipo_dato 2c_name){
+					this.1 = 2c_name
+				}
+				public void set_Nc (tipo_dato Nc_name){
+					this.1 = Nc_name
+				}
+						
+					public tipo_dato get_1c(){
+					return 1c;
+					}	
+					public tipo_dato get_1c(){
+					return 2c;
+					}
+					public tipo_dato get_1c(){
+					return 3c;
+					}			
+			}
+		2.java
+			public class 2.java{
+
+			private tipo_dato 1c // 1c = campos de la tabla
+			private tipo_dato 2c // 2c = campos de la tabla
+			private tipo_dato Nc // Nc = campos de la tabla
+	
+			public 1.java() { // constructor 
+				this.1c = " "; // " " varian segun el tipo de dato
+				this.2c = " "; // " " varian segun el tipo de dato
+				this.Nc = " "; // " " varian segun el tipo de dato
+			}
+			public 2.java() { // constructor 
+				this.1c = " "; // " " varian segun el tipo de dato
+				this.2c = " "; // " " varian segun el tipo de dato
+				this.Nc = " "; // " " varian segun el tipo de dato
+			}
+			public N.java() { // constructor 
+				this.1c = " "; // " " varian segun el tipo de dato
+				this.2c = " "; // " " varian segun el tipo de dato
+				this.Nc = " "; // " " varian segun el tipo de dato
+			}
+
+				public void set_1c (tipo_dato 1c_name){
+					this.1c = 1c_name
+				}
+				public void set_2c (tipo_dato 2c_name){
+					this.1 = 2c_name
+				}
+				public void set_Nc (tipo_dato Nc_name){
+					this.1 = Nc_name
+				}
+						
+					public tipo_dato get_1c(){
+					return 1c;
+					}	
+					public tipo_dato get_1c(){
+					return 2c;
+					}
+					public tipo_dato get_1c(){
+					return 3c;
+					}			
+			}
+		N.java
+			public class N.java{
+
+			private tipo_dato 1c // 1c = campos de la tabla
+			private tipo_dato 2c // 2c = campos de la tabla
+			private tipo_dato Nc // Nc = campos de la tabla
+	
+			public 1.java() { // constructor 
+				this.1c = " "; // " " varian segun el tipo de dato
+				this.2c = " "; // " " varian segun el tipo de dato
+				this.Nc = " "; // " " varian segun el tipo de dato
+			}
+			public 2.java() { // constructor 
+				this.1c = " "; // " " varian segun el tipo de dato
+				this.2c = " "; // " " varian segun el tipo de dato
+				this.Nc = " "; // " " varian segun el tipo de dato
+			}
+			public N.java() { // constructor 
+				this.1c = " "; // " " varian segun el tipo de dato
+				this.2c = " "; // " " varian segun el tipo de dato
+				this.Nc = " "; // " " varian segun el tipo de dato
+			}
+
+				public void set_1c (tipo_dato 1c_name){
+					this.1c = 1c_name
+				}
+				public void set_2c (tipo_dato 2c_name){
+					this.1 = 2c_name
+				}
+				public void set_Nc (tipo_dato Nc_name){
+					this.1 = Nc_name
+				}
+						
+					public tipo_dato get_1c(){
+					return 1c;
+					}	
+					public tipo_dato get_1c(){
+					return 2c;
+					}
+					public tipo_dato get_1c(){
+					return 3c;
+					}			
+			}
+		
+	Namedb.Business
+	Namedb.Controllers
+
+	
+
