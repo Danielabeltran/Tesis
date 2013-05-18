@@ -1,0 +1,26 @@
+getexportedkeys(connection.getCatalog(), null,"curso");
+{
+pktable_cat --> trae el catalogo de la clave primaria que se importa
+pktable_name -->nombre de la clave principal (se coloca en el metodo (3posición))
+pkcolumn_name -->Nombre de la columna clave primaria que se importa
+
+fktable_cat -->catalogo de tabla de clave externa
+fktable_name -->Nombre de la tabla de clave externa (tabla que hace referencia la llave foránea)
+fkcolumn_name -->Nombre de la columna de clave externa (columna en donde esta la llave foránea)
+}
+
+
+getColumn (connection.getCatalog(),null,null,null)
+{
+table_name -->trae las tablas de la bd
+column_name -->nombre de la columna
+data_type -->identificador del tipo de dato SQL de java.sql.Types
+type_name --> el nombre de tipo de dato
+column_size -->la longitud de la columna
+is_autoincrement --> si la columna se incrementa automaticamente o no
+}
+
+}
+
+
+
