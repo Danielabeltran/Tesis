@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+
+<h1> $foo </h1>
+
+<span>Datos</span>
+
+<ul>
+    <li>Carnet: ${alumno.carnet}</li>
+    <li>Nombre: ${alumno.nombre}</li>
+</ul>
+
+<!-- Esta es la banda -->
+<ol>
+#foreach( $banda in $grupos)
+    <li>$banda</li>
+#end
+</ol>
+
+
+<ol>
+#foreach( $estudiante in $curso)
+    <li>${estudiante.carnet} - ${estudiante.nombre} - Iniciales: ${estudiante.iniciales()}</li>
+#end
+</ol>
+
+
+
+
+</body>
+<html>
