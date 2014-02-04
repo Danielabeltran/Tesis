@@ -1,16 +1,16 @@
-getexportedkeys(connection.getCatalog(), null,"curso");
+getexportedkeys(connection.getCatalog(), null,"curso");// metodo con 3 parametros 
 {
 pktable_cat --> trae el catalogo de la clave primaria que se importa
-pktable_name -->nombre de la clave principal (se coloca en el metodo (3posición))
+pktable_name -->nombre de la clave principal (se coloca en el metodo (3posiciï¿½n))
 pkcolumn_name -->Nombre de la columna clave primaria que se importa
 
 fktable_cat -->catalogo de tabla de clave externa
-fktable_name -->Nombre de la tabla de clave externa (tabla que hace referencia la llave foránea)
-fkcolumn_name -->Nombre de la columna de clave externa (columna en donde esta la llave foránea)
+fktable_name -->Nombre de la tabla de clave externa (tabla que hace referencia la llave forï¿½nea)
+fkcolumn_name -->Nombre de la columna de clave externa (columna en donde esta la llave forï¿½nea)
 }
 
 
-getColumn (connection.getCatalog(),null,null,null)
+getColumn (connection.getCatalog(),null,null,null) // metodo con 4 parametros 
 {
 table_name -->trae las tablas de la bd
 column_name -->nombre de la columna
@@ -20,7 +20,6 @@ column_size -->la longitud de la columna
 is_autoincrement --> si la columna se incrementa automaticamente o no
 }
 
-}
 
 
 
