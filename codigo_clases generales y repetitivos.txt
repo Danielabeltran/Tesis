@@ -1,4 +1,4 @@
-clases y codigo repetitivo, general, caracteristico
+//clases y codigo repetitivo, general, caracteristico
 
 Namedb
 
@@ -9,7 +9,7 @@ Packages
 
 			Package Namedb.data;
 			
-			Import…….
+			Importï¿½ï¿½.
 			
 			Public class 1_DAO {
 				public void CREATE(1_DAO ()) // metodo
@@ -22,7 +22,7 @@ Packages
 
 			Package Namedb.data;
 			
-			Import…….
+			Importï¿½ï¿½.
 			
 			Public class 2_DAO {
 				public void CREATE(2_DAO ()) // metodo
@@ -34,7 +34,7 @@ Packages
 		N_DAO.java //Nombre de la clase
 			Package Namedb.data;
 			
-			Import…….
+			Importï¿½ï¿½.
 			
 			Public class N_DAO {
 				public void CREATE(N_DAO ()) // metodo
